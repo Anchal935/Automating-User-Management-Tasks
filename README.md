@@ -29,31 +29,31 @@ Let's take a closer look at some code examples to understand how each task is im
    
       ![image](https://github.com/user-attachments/assets/a6a852eb-2d7d-4b3c-992f-1af21be9f8fd)
 
-   This code block displays the contents of the user_list file, which contains a list of all the available users.
+      This code block displays the contents of the user_list file, which contains a list of all the available users.
 
 2. Creation of new user:
 
       ![image](https://github.com/user-attachments/assets/ef37764a-56a2-4516-81b3-101c01abd1c7)
 
-   This code block iterates over each username in the user_list file and checks if the user already exists. If the user does not exist, it creates a new user using the adduser command.
+      This code block iterates over each username in the user_list file and checks if the user already exists. If the user does not exist, it creates a new user using the adduser command.
 
 3.	Default password generation:
 
       ![image](https://github.com/user-attachments/assets/7b3eca7b-a3a3-4d77-b05d-0bc231a70fe1)
 
-   This code block generates default passwords for each user in the user_list file. It sets the password as "$user@123" and uses the chpasswd command to update the password.
+      This code block generates default passwords for each user in the user_list file. It sets the password as "$user@123" and uses the chpasswd command to update the password.
 
 4.	User deletion:
 
       ![image](https://github.com/user-attachments/assets/709b18a7-b641-489b-b5d3-a38bc973eb10)
 
-   This code block prompts the user to enter the username of the user they want to delete. It then uses the userdel command to delete the specified user.
+      This code block prompts the user to enter the username of the user they want to delete. It then uses the userdel command to delete the specified user.
 
 5.	Reset password:
 
       ![image](https://github.com/user-attachments/assets/66379a04-44f7-4ff4-93dd-4515e2ca84ee)
 
-   This code block prompts the user to enter the username of the user they want to reset the password for. It then uses the passwd command to update the password for the specified user.
+      This code block prompts the user to enter the username of the user they want to reset the password for. It then uses the passwd command to update the password for the specified user.
 
 ## Conclusion
 
