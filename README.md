@@ -26,6 +26,7 @@ The code consists of the following sections:
 Let's take a closer look at some code examples to understand how each task is implemented:
 
 1.	List of users:
+   
 ![image](https://github.com/user-attachments/assets/a6a852eb-2d7d-4b3c-992f-1af21be9f8fd)
 
 This code block displays the contents of the user_list file, which contains a list of all the available users.
